@@ -1,10 +1,14 @@
 {
   "name": "toolbox-loader",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A loader used to add SASS themes for React Toolbox",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "sass-loader": "*",
+    "webpack": "*"
   },
   "author": "Javi Velasco <javier.velasco86@gmail.com> (http://javivelasco.com/)",
   "license": "ISC"

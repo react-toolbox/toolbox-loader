@@ -1,6 +1,6 @@
 {
   "name": "toolbox-loader",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A loader used to add SASS themes for React Toolbox",
   "main": "index.js",
   "scripts": {

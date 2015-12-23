@@ -30,7 +30,7 @@ module: {
         loader: ExtractTextPlugin.extract('style', 'css!sass!toolbox')
     }]
 },
-toolboxTheme: 'theme.scss',
+toolbox: 'theme.scss',
 ....
 ```
 

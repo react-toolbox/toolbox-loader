@@ -10,6 +10,13 @@ module.exports = function (source) {
   var fromBuild = options.fromBuild || true;
   var themeName = options.theme || DEFAULT_NAME;
   var themePath = path.resolve(themeName);
+
+  var themeExists = fs.existsSync(themePath);
+  if (!themeExists) {
+    // if themePath is not readable, fall back to default theme name
+    themePath = path.resolve(DEFAULT_NAME);
+  }
+
   var heading = HEADING;
 
   if (!fromBuild) {

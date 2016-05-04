@@ -7,7 +7,7 @@ module.exports = function (source) {
   if (this.cacheable) this.cacheable();
   var callback  = this.async();
   var options   = this.options.toolbox || {};
-  var fromBuild = options.fromBuild || true;
+  var fromBuild = options.fromBuild !== false;
   var themeName = options.theme || DEFAULT_NAME;
   var themePath = path.resolve(themeName);
 

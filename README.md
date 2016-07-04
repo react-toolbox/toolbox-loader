@@ -1,3 +1,7 @@
+# Important Note
+
+You still can use toolbox-loader to customize your variables in React Toolbox but it is deprecated since from now on you can use sass-loader to import your variables file for each stylesheet. Check [react-toolbox](http://github.com/react-toolbox/react-toolbox) for more info
+
 # React Toolbox Loader
 
 A webpack loader to add custom theming variables to your React Toolbox Components build process. You can install it as an npm package:
